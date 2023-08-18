@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+header {
+    background-color: black;
+}
+
+#logo-text {
+    display: flex;
+    align-items: center;
+}
+
+#logo-text img {
+    width: 15%;
+    height: 20%;
+    padding: 20px 20px 0px 10px;
+}
+
+
+#logo-text h1 {
+    font-family: 'Ultra', serif;
+    font-size: 30px;
+    color: white;
+    padding-top: 20px;
+    margin: 0;
+}
+#nav-search input {
+    font-family: 'Oswald', sans-serif;
+    width: 400px;
+    font-weight: 400;
+    background-color: #C7C7C7;
+    border: none;
+}
+
+#button-usuario a {
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+}
+
+#button-usuario img {
+    width: 60px;
+    height: 60px;
+    padding: 0px;
+    border-radius: 100%;
+}
+
+
+#button-usuario p a {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: small;
+    color: #C7C7C7;
+    text-align: center;
+    padding-left: 16px;
+    text-decoration: none;
+}
+
+#button-usuario a:hover {
+    color: #B2660D;
+}
+
+#button-usuario img:hover {
+    border-style: double;
+    background-color: #B2660D;
+}
+
+#nav-search .form-control:hover {
+    border-style: double;
+     border-color: #B2660D;
+}
+
+#lema h4 {
+    display: flex;
+    justify-content: end;
+    margin: 0px;
+    padding: 0px 10px 10px 0px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+main {
+    background-color: #C7C7C7;
+}
+main h4 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Ultra', serif
+}
+
+nav {
+    background-color: #B2660D;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    border-radius: 20%;
+}
+nav ul li {
+    list-style-type: none;
+    border-right: solid 1px black;
+    margin: 0px 0px 0px 24px;
+    padding-right: 24px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+
+}
+nav ul li a:hover{
+   color:  #C7C7C7;
+
+}
+
+nav img {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.product-instrumentos h4 {
+    padding: 20px;
+    color: black;
+}
+.instruments-general {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+}
+
+.product-instrumentos img {
+    margin: auto;
+    width: 100%;
+}
+.carousel-item {
+    margin-right: 0px;
+}
+.capa_1 {
+    padding-top: 70px;
+}
+.capa_1 img:hover {
+    border-radius: 10px;
+    /* border-style: double; */
+    border-color: #B2660D;
+    background-color: #B2660D;
+    transition-duration: 1s;
+}
+.capa_2 {
+    margin: -20px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.capa_3 {
+    height: 300px;
+    padding-top: 110px;
+}
+.capa_4 {
+    margin: -10px;
+    padding-top: 60px;
+}
+.instrument {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 80%;
+    margin: auto;
+    padding-left: 33%;
+}
+.instrument .capa_1 {
+    padding-top: 10px;
+    /* padding-left: 50px; */
+    height: 140px;
+    width: 200px;
+}
+
+button {
+    height: 75%;
+}
+
+.valor-instrument {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    padding-top: 80px;
+}
+
+.valor-instrument h5 a {
+    text-decoration: none;
+    color: black;
+}
+.valor-instrument p {
+    color: black;
+}
+.valor-instrument a:hover {
+    color: #B2660D;
+}
+.card-accesorio {
+    display: contents;
+}
+
+.product-acessorios h4 {
+    padding: 20px;
+    color: black;
+}
+
+.cards {
+    padding-left: 10%;
+}
+
+.card-accesorios {
+    width: 14rem;
+}
+
+.cards-accesorios img {
+    padding: 0 10px 0 10px;
+    
+}
+
+.cards-accesorios img:hover {
+    border-radius: 15px;
+    background-color: #B2660D;
+    transition-duration: 1s;
+}
+
+.card-text {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.cards-accesorios a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+.cards-accesorios p {
+    padding-top: 10px;
+}
+
+.cards-accesorios a:hover {
+    color: #B2660D;
+}
+
+footer {
+    background-color: #B2660D;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #C7C7C7;
+}
+
+.iconos-info {
+    display: flex;
+
+}
+.iconos-info p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #C7C7C7;
+    margin: 0px;
+}
+
+.iconos-info p a {
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+.iconos-info a:hover {
+    color: black;
+}
+
+.iconos-info img {
+    padding-right: 10px;
+}
+
+.col-3 .iconos-info{
+    padding: 10px 10px;
+    padding-bottom: 0px;
+}
+
+.col-3 h6 {
+    padding-top: 20px;
+}
+
+
+
+/* PARA CELULAR */
+@media (min-width: 320px) and (max-width: 767px) {
+
+    #logo-text {
+        display: table-row-group;
+        align-items: center;
+    }
+    #logo-text img {
+        margin-left: 35%;
+        margin-bottom: -10px;
+        height: 60px;
+        width: 100px;
+    }
+    #logo-text h1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .menu-mobile {
+        float: right;
+        height: 10px;
+        width: 40px;
+        margin-right: 50px;
+    }
+
+    .menu .icon-menu-mobile {
+        margin-bottom: 50px;
+        height: 20px;
+        width: 65px;
+        height: 0px;
+        width: 12px;
+    }
+    .menu .icon-menu-mobile img {
+        margin-bottom: 50px;
+        height: 40px;
+        width: 48px;
+    }
+
+    
+    #nav-search form{
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-left: 14px;
+    }
+    #nav-search input {
+        height: 30px; 
+        width: 260px;
+        border-radius: 20px;
+    }
+
+    #lema h4 {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+    #button-usuario {
+        display: none;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    .product-instrumentos h4 {
+        font-size: 14px;
+    }
+
+    .capa_2 {
+        display: none;
+    }
+    .capa_3 {
+        display: none;
+    }
+    .capa_4 {
+        display: none;
+    }
+    
+    .product-instrumentos img {
+        width: 80%;
+    }
+
+    .capa_1 {
+        padding-top: 0px;
+    }
+
+    .instrument {
+        padding-left: 10px;
+        margin-left: 60px;
+    }
+
+    .instrument .capa_1 {
+        margin-left: 20px;
+    }
+    .valor-instrument {
+        padding-top: 35px;
+    }
+      
+
+    .valor-instrument {
+        padding-top: 40px;  
+    }
+
+    .cards {
+        padding-left: 25%;
+    }
+    
+    footer .row {
+        width: 10px;
+    }
+    .col-3 .iconos-info {
+        height: 40px;
+        width: 400px;
+    }
+}   
+
+ 
+/* PARA TABLET */
+@media (min-width: 768px) and (max-width: 991px) {
+    #logo-text {
+        display: table-row-group;
+        align-items: center;
+    }
+    #logo-text img {
+        margin-left: 35%;
+        margin-bottom: -10px;
+        height: 60px;
+        width: 100px;
+    }
+    #logo-text h1 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .menu-mobile {
+        float: right;
+        height: 10px;
+        width: 40px;
+        margin-right: 50px;
+    }
+
+    .menu .icon-menu-mobile {
+        margin-bottom: 50px;
+        height: 20px;
+        width: 65px;
+        height: 0px;
+        width: 12px;
+    }
+    .menu .icon-menu-mobile img {
+        margin-bottom: 50px;
+        height: 40px;
+        width: 48px;
+    }
+
+    
+    #nav-search form{
+        padding-right: 0px;
+        padding-top: 10px;
+        padding-left: 14px;
+    }
+    #nav-search input {
+        height: 30px; 
+        width: 260px;
+        border-radius: 20px;
+    }
+
+    #lema h4 {
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+    }
+    #button-usuario {
+        display: none;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    .product-instrumento h4 {
+        font-size: 16px;
+    }
+
+    .capa_2 {
+        display: none;
+    }
+    .capa_3 {
+        display: none;
+    }
+    .capa_4 {
+        display: none;
+    }
+    
+    .product-instrumentos img {
+        width: 80%;
+    }
+
+    .capa_1 {
+        padding-top: 0px;
+    }
+
+    .instrument {
+        padding-left: 10px;
+        margin-left: 60px;
+    }
+
+    .instrument .capa_1 {
+        margin-left: 20px;
+    }
+    .valor-instrument {
+        padding-top: 35px;
+    }
+      
+
+    .valor-instrument {
+        padding-top: 40px;  
+    }
+
+    .cards {
+        padding-left: 25%;
+    }
+    
+    footer .row {
+        width: 10px;
+    }
+    .col-3 .iconos-info {
+        height: 40px;
+        width: 400px;
+    }
+}
